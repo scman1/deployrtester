@@ -52,3 +52,20 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Deploy with capistrano
+gem 'capistrano', '~> 3.11'
+gem 'capistrano-rails', '~> 1.4'
+gem 'capistrano-passenger', '~> 0.2.0'
+gem 'capistrano-rbenv', '~> 2.1', '>= 2.1.4'
+
+# bootstrap gems
+gem 'jquery-rails', '~> 4.3', '>= 4.3.5'
+gem 'popper_js', '~> 1.14', '>= 1.14.5'
+gem 'bootstrap', '~> 4.0'
+
+# Font-awesome
+gem 'font-awesome-sass', '~> 5.11.2'
+
+#jquery-ui
+gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
